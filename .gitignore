@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLLs
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Worker-internal files (MUST NOT PUSH)
+PROPOSAL.md
+COVER_LETTER.txt
+SPEC.txt
+TASK.txt
+pid
+role
+worker.log
+
+# OS
+.DS_Store
+Thumbs.db
