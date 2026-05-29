@@ -1,45 +1,25 @@
-{
-  "inventory": [
-    {
-      "product_id": "PROD-001",
-      "variant_id": "VAR-001",
-      "sku": "SKU-RED-SM",
-      "name": "Red T-Shirt Small",
-      "warehouse": "Main Warehouse",
-      "marketplace": null,
-      "available": 45,
-      "allocated": 5
-    },
-    {
-      "product_id": "PROD-001",
-      "variant_id": "VAR-002",
-      "sku": "SKU-RED-MD",
-      "name": "Red T-Shirt Medium",
-      "warehouse": "Main Warehouse",
-      "marketplace": null,
-      "available": 12,
-      "allocated": 3
-    },
-    {
-      "product_id": "PROD-002",
-      "variant_id": "VAR-003",
-      "sku": "SKU-BLU-LG",
-      "name": "Blue Hoodie Large",
-      "warehouse": "Main Warehouse",
-      "marketplace": null,
-      "available": 78,
-      "allocated": 10
-    },
-    {
-      "product_id": "PROD-003",
-      "variant_id": "VAR-004",
-      "sku": "SKU-GRN-SM",
-      "name": "Green Shorts Small",
-      "warehouse": "Main Warehouse",
-      "marketplace": null,
-      "available": 5,
-      "allocated": 0
-    }
-  ],
-  "pagination": {"page": 1, "per_page": 100, "total_pages": 1}
-}
+[
+  {
+    "warehouse_name": "Main Warehouse",
+    "products": [
+      {
+        "product_id": "101",
+        "variants": [
+          {"variant_id": "201", "sku": "VEEQO-SKU-001", "available": 75},
+          {"variant_id": "202", "sku": "VEEQO-SKU-002", "available": 5}
+        ]
+      }
+    ]
+  },
+  {
+    "warehouse_name": "Amazon EU",
+    "products": [
+      {
+        "product_id": "101",
+        "variants": [
+          {"variant_id": "201", "sku": "VEEQO-SKU-001", "available": 30}
+        ]
+      }
+    ]
+  }
+]

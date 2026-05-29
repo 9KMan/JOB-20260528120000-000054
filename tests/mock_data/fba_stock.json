@@ -1,34 +1,13 @@
-{
-  "inventory": [
-    {
-      "product_id": "PROD-001",
-      "variant_id": "VAR-001",
-      "sku": "SKU-RED-SM",
-      "name": "Red T-Shirt Small",
-      "warehouse": "Amazon FBA",
-      "marketplace": "amazon",
-      "available": 8,
-      "allocated": 2
-    },
-    {
-      "product_id": "PROD-001",
-      "variant_id": "VAR-002",
-      "sku": "SKU-RED-MD",
-      "name": "Red T-Shirt Medium",
-      "warehouse": "Amazon FBA",
-      "marketplace": "amazon",
-      "available": 35,
-      "allocated": 5
-    },
-    {
-      "product_id": "PROD-002",
-      "variant_id": "VAR-003",
-      "sku": "SKU-BLU-LG",
-      "name": "Blue Hoodie Large",
-      "warehouse": "Amazon FBA",
-      "marketplace": "amazon",
-      "available": 3,
-      "allocated": 0
-    }
-  ]
-}
+[
+  {
+    "warehouse_name": "Amazon EU",
+    "products": [
+      {
+        "product_id": "101",
+        "variants": [
+          {"variant_id": "201", "sku": "VEEQO-SKU-001", "available": 30}
+        ]
+      }
+    ]
+  }
+]

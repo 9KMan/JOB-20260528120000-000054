@@ -1,5 +1,6 @@
 """Slack HIL (Human-in-the-Loop) client for transfer approvals."""
 
+import os
 import json
 from typing import Tuple, Optional, Literal
 import httpx

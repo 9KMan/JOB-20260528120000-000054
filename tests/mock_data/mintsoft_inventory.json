@@ -1,40 +1,16 @@
-{
-  "products": [
-    {
-      "id": 1001,
-      "sku": "RED_SMALL_01",
-      "name": "Red T-Shirt Small",
-      "inventory": [
-        {"warehouse_id": 1, "qty": 22},
-        {"warehouse_id": 2, "qty": 5}
-      ]
-    },
-    {
-      "id": 1002,
-      "sku": "RED_MED_01",
-      "name": "Red T-Shirt Medium",
-      "inventory": [
-        {"warehouse_id": 1, "qty": 60},
-        {"warehouse_id": 2, "qty": 0}
-      ]
-    },
-    {
-      "id": 1003,
-      "sku": "BLU_LG_01",
-      "name": "Blue Hoodie Large",
-      "inventory": [
-        {"warehouse_id": 1, "qty": 90},
-        {"warehouse_id": 2, "qty": 40}
-      ]
-    },
-    {
-      "id": 1004,
-      "sku": "GRN_SM_01",
-      "name": "Green Shorts Small",
-      "inventory": [
-        {"warehouse_id": 1, "qty": 2},
-        {"warehouse_id": 2, "qty": 0}
-      ]
-    }
-  ]
-}
+[
+  {
+    "product_id": 501,
+    "sku": "MINT-SKU-001",
+    "items": [
+      {"sku": "MINT-SKU-001", "available": 8, "warehouse_id": 1, "warehouse_name": "Mintsoft WH1"}
+    ]
+  },
+  {
+    "product_id": 502,
+    "sku": "MINT-SKU-002",
+    "items": [
+      {"sku": "MINT-SKU-002", "available": 60, "warehouse_id": 1, "warehouse_name": "Mintsoft WH1"}
+    ]
+  }
+]

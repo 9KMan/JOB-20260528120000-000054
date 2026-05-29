@@ -1,42 +1,59 @@
-# Byte-compiled / optimized / DLLs
+# Environment
+.env
+.env.local
+*.log
+
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
 venv/
+ENV/
 env/
 .venv/
-
-# Environment
-.env
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
 
 # Testing
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
+.nox/
 
-# Distribution
-dist/
-build/
-*.egg-info/
+# mypy
+.mypy_cache/
 
-# Worker-internal files (MUST NOT PUSH)
-PROPOSAL.md
-COVER_LETTER.txt
+# Worker-internal files - MUST never be pushed
 SPEC.txt
 TASK.txt
 pid
 role
-worker.log
 
-# OS
-.DS_Store
-Thumbs.db
+# Proposal documents - MUST never be pushed
+PROPOSAL.md
+COVER_LETTER.txt

@@ -66,7 +66,7 @@ def create_inventory_crew(
     
     # Agent 4: Transfer Planner
     planner_agent = Agent(
-        role="Transfernoaa Planner",
+        role="Transfer Planner",
         goal="Construct transfer payloads and Slack messages",
         backstory=TRANSFER_PLANNER_PROMPT,
         llm=llm,
